@@ -1,0 +1,79 @@
+                                                                        1. Obtained a sample phishing email
+A phishing email pretending to be from Google Account Support was obtained. It claimed that unusual login activity was detected and asked the user to download a PDF and verify their account within 24 hours.
+
+                                                                    2. Examined sender’s email address for spoofing
+The sender address shown was:
+security-horeply@google-support-a…
+This is not a legitimate Google domain.
+Real Google emails come from domains such as:
+@google.com
+@accounts.google.com
+
+
+The suspicious and incomplete domain indicates email spoofing.
+
+                                                                        3. Checked email headers for discrepancies
+Using an online header analyzer (e.g., Google Admin Toolbox), typical discrepancies that appear in phishing emails include:
+
+
+Return-Path does not match “From” address.
+SPF/DKIM/DMARC authentication failures (common in spoofed emails).
+Email routed through unknown foreign servers.
+Origin IP not belonging to Google infrastructure.
+
+These issues show that the sender was not authorized to send emails on behalf of Google.
+
+                                                                     4. Identified suspicious links or attachments
+The phishing email included:
+
+Suspicious attachment
+📎 Google_Security_Verification_Report.pdf
+Google NEVER sends security PDFs. Attachments in phishing emails often contain malware.
+
+Suspicious link
+🔗https://google-security-check.com/verify-user
+This is a fake domain designed to look like an official Google site.
+
+                                                                       5. Looked for urgent or threatening language
+The email uses classic phishing pressure tactics:
+
+
+“Important: Action Required”
+“You have 24 hours to verify your activity.”
+“Failure… may result in restricted access.”
+
+This creates urgency and fear, pushing the victim to act quickly.
+ 
+                                                                             6. Noted any mismatched URLs
+When hovering over the link text, the visible text appears safe, but the true URL points to:
+
+google-security-check.com
+This domain does not belong to Google and is designed to deceive users.
+Mismatched URLs are a strong phishing indicator.
+
+                                                                    7. Verified presence of spelling or grammar errors
+Multiple grammar and spelling errors are present:
+
+
+“compleete”
+“Plaase”
+Incorrect capitalization (e.g., “Inside.”)
+Awkward sentence structure
+
+Legitimate companies like Google do not send emails with such mistakes.
+
+                                                                        8. Summarized phishing traits found in the email
+
+The email shows multiple phishing indicators:
+    
+Spoofed sender address
+Failed authentication (likely SPF/DKIM/DMARC)
+Suspicious link using a fake Google-like domain
+Malicious attachment prompt
+Urgent and threatening language
+Grammar and spelling errors
+Mismatched URLs
+Unusual location/device information (attempt to scare user)
+Generic template-like formatting
+
+These characteristics confirm that the email is a phishing attempt designed to steal login credentials or deploy malware.
